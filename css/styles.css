@@ -818,6 +818,7 @@ p {
 
 .modal-header {
     color: var(--navyblue, #2e2f42);
+    display: flex;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
