@@ -496,6 +496,11 @@ p {
 
 /* Footer wrap */
 
+
+.footer-form-container {
+    display: block;
+}
+
 .footer-form-header {
     color: var(--white, #FFFFFF);
     font-size: 16px;
@@ -515,16 +520,17 @@ p {
   .footer-form-input {
     width: 264px;
     height: 40px;
-    padding: 8px 16px;
+    padding-left: 16px;
     font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    outline: none;
+    outline: transparent;
     background-color: transparent;
     color: var(--white, #FFFFFF);
     border-radius: 4px;
     border: 1px solid var(--white, #FFFFFF);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .footer-form-input::placeholder {
@@ -532,15 +538,14 @@ p {
   }
   
 
-  .footer-button {
-    min-width: 165px;
-    height: 40px;
+  .footer-btn {
     display: inline-flex;
+    min-width: 165px;
+    min-height: 40px;
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
     color: var(--white, #FFFFFF);
-    text-align: center;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
