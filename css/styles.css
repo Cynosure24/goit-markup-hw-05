@@ -498,7 +498,8 @@ p {
 
 
 .footer-form-container {
-    display: block;
+    max-width: 264px;
+    margin-left: 80px;
 }
 
 .footer-form-header {
