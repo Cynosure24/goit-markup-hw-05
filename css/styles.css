@@ -557,11 +557,6 @@ p {
   }
 
 
-  .footer-btn:hover
-  .footer-btn:focus {
-    background-color: var(--ocean, #404BBF);
-  }
-
 
   .footer-btn-icon {
     margin-left: 16px;
