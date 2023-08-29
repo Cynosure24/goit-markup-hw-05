@@ -955,6 +955,7 @@ input[type='checkbox']:checked + .modal-form-agrement .agrement-checkbox {
 
     .modal-agrement-link {
         color: var(--iris, #4d5ae5);
+        text-decoration: underline;
       }
 
       .modal-button-send {
