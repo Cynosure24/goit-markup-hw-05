@@ -559,7 +559,6 @@ p {
 
   .footer-btn:hover
   .footer-btn:focus {
-    cursor: pointer;
     background-color: var(--ocean, #404BBF);
   }
 
